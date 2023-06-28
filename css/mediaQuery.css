@@ -1,0 +1,191 @@
+/* For container */
+
+@media screen and (min-width:1400px) {
+ 
+    .container{
+        width: 1320px;
+    }
+    
+}
+
+@media screen and (max-width:1400px) {
+    .container{
+        width: 1140px;
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    .container{
+        width: 960px;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    .container{
+        width: 720px;
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .container{
+        width: 540px;
+    }
+    
+}
+@media screen and (max-width:576px) {
+    .container{
+        width: 100%;
+    }
+    
+}
+
+
+/* -------------------------------home section------------------------------------- */
+@media screen and (max-width:768px) {
+    .homePic{
+        order: 1;
+        width: 100%;
+    }
+    .homeContent{
+        order: 2;
+        width: 100%;
+    }
+    
+}
+
+
+
+/* -----------------------------------chefs Section---------------------------- */
+@media screen and (max-width:992px) {
+    .chefCard{
+        width: calc(calc(100% - 30px)/2);
+        /* width: 100%; */
+    }
+    
+}
+@media screen and (max-width:768px) {
+    .chefCard{
+        width: 100%;
+    }
+    
+}
+/* ------------------------------gallery section------------------------------- */
+@media screen and (max-width:1200px) {
+
+    .gallerySection .content{
+        height: 800px;
+    }
+    
+}
+@media screen and (max-width:992px) {
+    .gallerySection .food{
+        width: calc(calc(100% - var(--gap))/2);
+    }
+
+    /* changing the order of the pics according to the original site */
+     .pizza {
+        order: 1;
+      }
+       .fried {
+        order: 6;
+      }
+       .omelette {
+        order: 4;
+      }
+       .kofta {
+        order: 7;
+      }
+       .burger {
+        order: 2;
+      }
+       .pizza-slices {
+        order: 3;
+      }
+       .steak {
+        order: 5;
+      }
+
+    .gallerySection .content{
+        height: 1450px;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+
+    .gallerySection .content{
+        height: auto;
+    }
+
+    .gallerySection .food{
+        width: 100%;
+    }
+    
+}
+
+
+/* -------------------------------contact section-------------------------------  */
+
+@media screen and (max-width:768px) {
+    .contactData{
+        
+        width: 100%;
+    }
+    
+}
+
+
+@media screen and (max-width:992px) {
+    .sendEmail .email{
+        width: 100%;
+    }
+
+    .sendEmail .name{
+
+        width: 100%;
+        
+    }
+    
+}
+
+
+/* ----------------------------Footer Section--------------------------------- */
+
+@media screen and (max-width:992px) {
+    .footerLeft{
+        /* background-color: #fff; */
+        width: calc(calc(100% - 20px)/2);
+    
+    }
+    .footerMiddle{
+        /* background-color: #fff; */
+        width: calc(calc(100% - 20px)/2);
+    
+    }
+    .footerRight{
+        /* background-color: #fff; */
+        width: 100%;
+    
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .footerLeft{
+        /* background-color: #fff; */
+        width: 100%;
+    
+    }
+    .footerMiddle{
+        /* background-color: #fff; */
+        width: 100%;
+    
+    }
+    .footerRight{
+        /* background-color: #fff; */
+        width: 100%;
+    
+    }
+    
+}
